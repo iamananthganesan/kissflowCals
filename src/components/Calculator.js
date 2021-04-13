@@ -1,14 +1,9 @@
-import React, { useState, useEffect } from 'react';
-
-export default () => {
-    const [display, setDisplay] = useState('');
+import React, { useState } from 'react';
+export default Calculator = () => {
     const [frstValue, setfrstValue] = useState(0);
     const [nextValue, setnextValue] = useState('');
     const [operator, setOperator] = useState(null);
     const [result, setResult] = useState(0);
-    useEffect(() => { }, [frstValue, nextValue, operator]);
-
-
     const performOperation = (operator) => {
         if (operator === '+') {
             setResult(parseInt(nextValue) + parseInt(frstValue));
@@ -37,7 +32,7 @@ export default () => {
         setfrstValue(0);
         setResult('');
     };
-    
+
     const handleOperation = (val) => {
         if (Number.isInteger(parseInt(val.target.innerHTML))) {
             setfrstValue((frstValue) === 0 ? String(val.target.innerHTML) : frstValue + val.target.innerHTML)
