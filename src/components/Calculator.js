@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-export default Calculator = () => {
+export default () => {
     const [frstValue, setfrstValue] = useState(0);
     const [nextValue, setnextValue] = useState('');
     const [operator, setOperator] = useState(null);
