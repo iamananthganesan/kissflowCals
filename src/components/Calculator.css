@@ -1,0 +1,98 @@
+
+.wrapper{
+    background-color: #B32463;
+    padding: 10px;
+    margin: 5% 30%;
+  }
+  .innerWrapper{
+    background-color: #D40640;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.75);
+  }
+  .results{
+    height: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    padding-right: 10px;
+  }
+  .values{
+    padding: 10px;
+  }
+  .controls > span{  
+    width: 116px;
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+  .controls > span:hover{
+    cursor: pointer;
+  }
+  .bg-white{
+    background-color: #fff;
+  }
+  .controls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .controls-inner{
+    display: flex;
+    flex-direction: row;
+  }
+  .numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .numbers > span, .rightControls > span{
+    width: 116px;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+  .rightControls{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls-footer{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .controls-footer > span {
+    width: 116px;
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .equals{
+    flex-grow: 4;
+    color: #fff !important;
+    background-color: #D40640;
+  }
+  
+  span:hover{
+    background-color: #D40640;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  span:active {
+    background-color: #B32463;
+    -webkit-box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 19px -3px rgba(0,0,0,0.75);
+    transform: translateY(4px);
+    transform: translateX(4px);
+  }
