@@ -23,7 +23,7 @@
       "react-app/jest"
     ],
     "rules": {
-      "no-eval": true
+      "no-eval": 0
     }
   },
   "browserslist": {
